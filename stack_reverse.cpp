@@ -21,7 +21,7 @@ int main(){
 
     // in order to reverse the stack we set the top element of the stack to the
     // first element within the new reversed stack
-    for(int i=0; i < pancakes.size()*2; i++){
+    while(!pancake.empty()){
         reverse_pancake.push(pancakes.top());
         pancakes.pop();
     }
