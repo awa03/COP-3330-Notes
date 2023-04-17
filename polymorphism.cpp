@@ -8,7 +8,7 @@ using namespace std;
 
  - mobs and players may both have locations in the game, however a player would
    be contained within a different derived class than a mob even though they have
-   a common attribute
+   a common attribute.
 
 - books may be used with polymorphism. The genre for example may have different specifications
   within this subclass, thus we use polymorphism.
